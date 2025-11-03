@@ -16,7 +16,7 @@ REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v Wallpaper /t 
 
 REM 👤 Aktifkan akun administrator dan atur password baru
 net user administrator /active:yes
-net user administrator SahrulGunawanID2000
+net user administrator Mlpnko123
 net localgroup administrators administrator /add
 net user administrator /active:yes >nul
 
@@ -38,7 +38,7 @@ REM 📢 Informasi Sukses & Detail RDP
 echo.
 echo 💡 Successfully Installed! If the RDP is dead, please rebuild again!
 echo 🔑 Username: administrator
-echo 🔒 Password: SahrulGunawanID2000
+echo 🔒 Password: Mlpnko123
 echo 🚪 Login via RDP now!
 
 REM 🌐 Tampilkan IP atau status Ngrok Tunnel
